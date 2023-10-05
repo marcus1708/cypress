@@ -4,6 +4,7 @@
   "description": "Repositório do projeto v2 do curso de testes automatizados com Cypress (intermdiário) da Escola TAT no Udemy",
   "main": "cypress.config.js",
   "scripts": {
+    "cy:open": "cypress open",
     "test": "cypress run"
   },
   "repository": {
@@ -21,7 +22,9 @@
     "url": "https://github.com/wlsf82/cypress-intermediario-v2/issues"
   },
   "homepage": "https://github.com/wlsf82/cypress-intermediario-v2#readme",
-  "dependencies": {
-    "cypress": "^10.0.0"
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^10.0.0",
+    "cypress-plugin-api": "^2.6.1"
   }
 }
